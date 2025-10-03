@@ -1,1 +1,3 @@
 # The-Time-in-Words--Algo
+
+This C++ code converts a given time in hours and minutes into its corresponding English phrase using the timeInWords function. It uses a predefined list of number words and handles special cases such as "quarter past," "half past," and "quarter to" for 15, 30, and 45 minutes respectively, as well as singular or plural forms of "minute" for other cases. The main function reads and trims the input strings for hours and minutes, calls the conversion function, and writes the formatted time phrase to an output file. Helper functions ltrim and rtrim ensure input strings are properly trimmed of whitespace before processing.
